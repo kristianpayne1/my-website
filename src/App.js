@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Welcome from "./Welcome.js";
+import Home from "./Home.js";
+import { HashRouter, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h>Under maintanance <span role="img" aria-label="donut">🚧</span></h>
-      </header>
-    </div>
+    <HashRouter basename='/'>
+      <div className="App">
+        <Route exact path="/" component={Welcome} />
+        <Route path="/home" component={Home} />
+      </div>
+    </HashRouter>
   );
 }
 

@@ -1,5 +1,72 @@
+body {
+  background-color: #282c34 !important;
+}
+
+.progress-bar {
+  background-color: #98c379 !important;
+}
+
+.col-sm {
+  margin-bottom: 2rem;
+}
+
+.home {
+  min-height: 600px;
+  margin-bottom: 5rem;
+}
+
+.aboutme-para {
+  top: 425px;
+  float: left;
+  font-size: 20px;
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+  font-weight: bold;
+  max-width: 500px;
+  justify-content: center;
+}
+
+.home-title {
+  top: 250px;
+  float: left;
+  font-size: 63px;
+  position: absolute;
+  z-index: 1;
+  text-align: left;
+  font-weight: bold;
+  max-width: 500px;
+  justify-content: center;
+  white-space: pre-wrap !important;
+}
+
+.home img {
+  height: 600px;
+  width: 600px;
+  float: right;
+  border-radius: 0px !important;
+  box-shadow: -20px 20px #61afef;
+}
+
+.content {
+  max-width: 90%;
+  margin: auto;
+  color: white;
+}
+
+.color-nav {
+  background-color: #282c34 !important;
+  margin: auto;
+  max-width: 94%;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
 }
 
 .App-header {
@@ -11,4 +78,211 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  white-space: pre-wrap !important;
+}
+
+.nav-link {
+  margin: 0.5rem;
+}
+
+.blinking {
+  animation: blinkingText 1.2s infinite;
+}
+
+.arrow-button {
+  height: 35px;
+  width: 35px;
+  outline: none;
+  margin-top: 1px;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+  -moz-animation: fadeOut ease 1s;
+  -o-animation: fadeOut ease 1s;
+  -ms-animation: fadeOut ease 1s;
+}
+
+/*Ipad Pro */
+@media only screen and (max-width: 1180px) {
+  .content {
+    padding-top: 5%;
+  }
+  .home {
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
+  }
+  .home-title {
+    top: 300px;
+  }
+  .aboutme-para {
+    top: 500px;
+  }
+}
+
+/* Ipad and lower */
+@media only screen and (max-width: 991px) {
+  .App-header h1 {
+    font-size: 1.5rem !important;
+  }
+  .App-header input {
+    height: 25px;
+    width: 25px;
+  }
+  .arrow-button {
+    margin-top: 2px;
+  }
+  .home {
+    margin-top: 10%;
+    overflow: hidden;
+    margin-bottom: 20%;
+  }
+  .home img {
+    float: none;
+    width: 80%;
+    height: 100vw;
+  }
+  .home-title {
+    padding-right: 10%;
+    float: none;
+    margin-top: 8%;
+    font-size: calc(15vmin);
+    position: static;
+    text-align: right;
+    max-width: 100%;
+  }
+  .aboutme-para {
+    float: none;
+    position: static;
+    margin-top: 12%;
+    text-align: center;
+    font-size: calc(5vmin);
+    max-width: 100%;
+  }
+}
+
+/* Annoying tall phones */
+@media only screen and (min-height: 812px) and (max-width: 767px) {
+  .home {
+    margin-top: 30%;
+    margin-bottom:40%;
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkingText {
+  0% {
+    color: white;
+  }
+  49% {
+    color: white;
+  }
+  60% {
+    color: transparent;
+  }
+  99% {
+    color: transparent;
+  }
+  100% {
+    color: white;
+  }
 }
