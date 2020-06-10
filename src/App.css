@@ -12,7 +12,7 @@ body {
 
 .home {
   min-height: 600px;
-  margin-bottom: 5rem;
+  margin-bottom: 5%;
 }
 
 .aboutme-para {
@@ -130,7 +130,7 @@ body {
 }
 
 /* Ipad and lower */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 850px) {
   .App-header h1 {
     font-size: 1.5rem !important;
   }
@@ -142,20 +142,20 @@ body {
     margin-top: 2px;
   }
   .home {
-    margin-top: 10%;
+    margin-top: 17%;
     overflow: hidden;
     margin-bottom: 20%;
   }
   .home img {
     float: none;
     width: 80%;
-    height: 100vw;
+    height: 80%;
   }
   .home-title {
     padding-right: 10%;
     float: none;
     margin-top: 8%;
-    font-size: calc(15vmin);
+    font-size: 7vh;
     position: static;
     text-align: right;
     max-width: 100%;
@@ -173,8 +173,8 @@ body {
 /* Annoying tall phones */
 @media only screen and (min-height: 750px) and (max-width: 767px) {
   .home {
-    margin-top: 30%;
-    margin-bottom:40%;
+    margin-top: 35%;
+    margin-bottom:41%;
   }
 }
 
