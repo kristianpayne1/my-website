@@ -171,7 +171,7 @@ body {
 }
 
 /* Annoying tall phones */
-@media only screen and (min-height: 812px) and (max-width: 767px) {
+@media only screen and (min-height: 750px) and (max-width: 767px) {
   .home {
     margin-top: 30%;
     margin-bottom:40%;
