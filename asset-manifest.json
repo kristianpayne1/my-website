@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a72741ab.chunk.css",
-    "main.js": "/static/js/main.78e0c38a.chunk.js",
-    "main.js.map": "/static/js/main.78e0c38a.chunk.js.map",
+    "main.css": "/static/css/main.115f33b0.chunk.css",
+    "main.js": "/static/js/main.6a92e4c7.chunk.js",
+    "main.js.map": "/static/js/main.6a92e4c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3ce2ee87.js",
     "runtime-main.js.map": "/static/js/runtime-main.3ce2ee87.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ff567f50.chunk.js": "/static/js/2.ff567f50.chunk.js",
-    "static/js/2.ff567f50.chunk.js.map": "/static/js/2.ff567f50.chunk.js.map",
+    "static/js/2.96609222.chunk.js": "/static/js/2.96609222.chunk.js",
+    "static/js/2.96609222.chunk.js.map": "/static/js/2.96609222.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a1b45b50c156216b24cc0f21e036d9d8.js": "/precache-manifest.a1b45b50c156216b24cc0f21e036d9d8.js",
+    "precache-manifest.01ff8397c140a8ad2c34ff982c3541cc.js": "/precache-manifest.01ff8397c140a8ad2c34ff982c3541cc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a72741ab.chunk.css.map": "/static/css/main.a72741ab.chunk.css.map",
-    "static/js/2.ff567f50.chunk.js.LICENSE.txt": "/static/js/2.ff567f50.chunk.js.LICENSE.txt",
-    "static/media/cablink.png": "/static/media/cablink.bb4e7776.png",
-    "static/media/ks-game.png": "/static/media/ks-game.1549a20c.png",
-    "static/media/me.jpg": "/static/media/me.09cf7310.jpg"
+    "static/css/main.115f33b0.chunk.css.map": "/static/css/main.115f33b0.chunk.css.map",
+    "static/js/2.96609222.chunk.js.LICENSE.txt": "/static/js/2.96609222.chunk.js.LICENSE.txt",
+    "static/media/cablink.png": "/static/media/cablink.3717d64b.png",
+    "static/media/ks-game.png": "/static/media/ks-game.001eed6f.png",
+    "static/media/me.jpg": "/static/media/me.09cf7310.jpg",
+    "static/media/spotify-companion.png": "/static/media/spotify-companion.3ba8732d.png",
+    "static/media/woking-swimming.png": "/static/media/woking-swimming.aae91e1d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ce2ee87.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ff567f50.chunk.js",
-    "static/css/main.a72741ab.chunk.css",
-    "static/js/main.78e0c38a.chunk.js"
+    "static/js/2.96609222.chunk.js",
+    "static/css/main.115f33b0.chunk.css",
+    "static/js/main.6a92e4c7.chunk.js"
   ]
 }
