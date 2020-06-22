@@ -9,10 +9,10 @@ class Home extends Component {
         return (
             <div>
                 <div className="content">
-                    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="color-nav ">
+                    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="color-nav" id="navbar">
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="ml-auto" onSelect={(selectedKey) => window.scroll({ top: (document.getElementById(selectedKey).offsetTop - 72), behavior: "smooth" })}>
+                            <Nav className="ml-auto" onSelect={(selectedKey) => window.scroll({ top: (document.getElementById(selectedKey).offsetTop - document.getElementById("navbar").offsetHeight), behavior: "smooth" })}>
                                 <Nav.Link href="" eventKey="home">Home</Nav.Link>
                                 <Nav.Link href="" eventKey="skills">Skills</Nav.Link>
                                 <Nav.Link href="" eventKey="projects">Projects</Nav.Link>

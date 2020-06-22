@@ -213,6 +213,12 @@ body {
     font-size: calc(5vmin);
     max-width: 100%;
   }
+  .skills-home{
+    margin-bottom: 15%;
+  }
+  .projects-home {
+    margin-bottom: 15%;
+  }
 }
 
 /* Annoying tall phones */
