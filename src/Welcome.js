@@ -23,7 +23,7 @@ class Welcome extends Component {
                 } else {
                     self.setState({ hideButton: false });
                 }
-            }, 100);
+            }, 90);
         }, 1500);
     }
 

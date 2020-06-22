@@ -2,29 +2,25 @@ import React, { Component } from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap/';
 import { Fade } from 'react-reveal/';
 import Skills from './Skills.js';
+import Projects from './Projects.js';
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <header>
-                    <Fade top>
-                        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="color-nav ">
-                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                            <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="ml-auto">
-                                    <Nav.Link href="">Home</Nav.Link>
-                                    <Nav.Link href="">Skills</Nav.Link>
-                                    <Nav.Link href="">Projects</Nav.Link>
-                                    <Nav.Link href="">Blog</Nav.Link>
-                                    <Nav.Link href="">Contact</Nav.Link>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Navbar>
-                    </Fade>
-                </header>
                 <div className="content">
-                    <div className="home" onScroll={this.handleScroll}>
+                    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top" className="color-nav ">
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="ml-auto" onSelect={(selectedKey) => window.scroll({ top: (document.getElementById(selectedKey).offsetTop - 72), behavior: "smooth" })}>
+                                <Nav.Link href="" eventKey="home">Home</Nav.Link>
+                                <Nav.Link href="" eventKey="skills">Skills</Nav.Link>
+                                <Nav.Link href="" eventKey="projects">Projects</Nav.Link>
+                                <Nav.Link href="" eventKey="contact">Contact</Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Navbar>
+                    <div className="home" onScroll={this.handleScroll} id="home">
                         <Fade>
                             <Image src={require('./img/me.jpg')} />
                             <h1 className="home-title">{"I'm a "}<span style={{ color: "#98c379" }}>{"full stack"}</span> <span style={{ color: "#61afef" }}>{"\nweb developer"}</span></h1>
@@ -34,6 +30,7 @@ class Home extends Component {
                         </Fade>
                     </div>
                     <Skills />
+                    <Projects />
                 </div>
             </div>
         );

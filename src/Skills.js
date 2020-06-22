@@ -6,9 +6,10 @@ class Skills extends Component {
 
     render() {
         return (
-            <div className="skills">
+            <div className="skills-home" id="skills">
                 <Fade bottom>
                     <h1>Skills</h1>
+                    <p>I strive to explore and learn new and emerging technologies.</p>
                     <div className="row">
                         <div className="col-sm">
                             <h4>HTML/CSS</h4>
