@@ -216,6 +216,7 @@ body {
     margin-top: 17%;
     overflow: hidden;
     margin-bottom: 20%;
+    text-align: center;
   }
   .home img {
     float: none;
@@ -228,7 +229,8 @@ body {
     margin-top: 8%;
     font-size: 7vh;
     position: static;
-    text-align: right;
+    text-align: center;
+    margin-left: 5rem;
     max-width: 100%;
   }
   .aboutme-para {
@@ -253,6 +255,9 @@ body {
   .home {
     margin-top: 35%;
     margin-bottom: 42%;
+  }
+  .home-title {
+    font-size: 6vh;
   }
 }
 
