@@ -3,6 +3,7 @@ import { Navbar, Nav, Image } from 'react-bootstrap/';
 import { Fade } from 'react-reveal/';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
+import ContactMe from './ContactMe.js';
 
 class Home extends Component {
     render() {
@@ -32,6 +33,7 @@ class Home extends Component {
                     <Skills />
                     <Projects />
                 </div>
+                <ContactMe />
             </div>
         );
     }

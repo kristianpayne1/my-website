@@ -2,6 +2,32 @@ body {
   background-color: #282c34 !important;
 }
 
+.contactme-home {
+  max-width: 90%;
+  margin: auto;
+}
+
+.jumbotron {
+  background-color: #61afef !important;
+  color: white;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  margin-top: 5%;
+  padding-left: 0 !important;
+}
+
+.jumbotron ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.jumbotron li {
+  float: left;
+  margin-right: 1rem;
+}
+
 .project-deck .card {
   margin-bottom: 15px;
 }
@@ -213,7 +239,7 @@ body {
     font-size: calc(5vmin);
     max-width: 100%;
   }
-  .skills-home{
+  .skills-home {
     margin-bottom: 15%;
   }
   .projects-home {
@@ -336,4 +362,18 @@ body {
   100% {
     color: white;
   }
+}
+
+/* Social media icons */
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
