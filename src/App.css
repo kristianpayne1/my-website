@@ -227,7 +227,7 @@ body {
     padding-right: 10%;
     float: none;
     margin-top: 8%;
-    font-size: 7vh;
+    font-size: 13vw;
     position: static;
     text-align: center;
     margin-left: 5rem;
@@ -255,9 +255,6 @@ body {
   .home {
     margin-top: 35%;
     margin-bottom: 42%;
-  }
-  .home-title {
-    font-size: 6vh;
   }
 }
 

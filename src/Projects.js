@@ -20,7 +20,7 @@ class Projects extends Component {
                                 </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/CabLink" target="_blank">Here</a></small>
+                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/CabLink" target="_blank" rel="noopener noreferrer">Here</a></small>
                                 </Card.Footer>
                             </Card>
                             <Card className="project-card">
@@ -32,7 +32,7 @@ class Projects extends Component {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/KS-Ski-Game" target="_blank">Here</a></small>
+                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/KS-Ski-Game" target="_blank" rel="noopener noreferrer">Here</a></small>
                                 </Card.Footer>
                             </Card>
                             <Card className="project-card">
@@ -44,7 +44,7 @@ class Projects extends Component {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/spotify-companion" target="_blank">Here</a></small>
+                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/spotify-companion" target="_blank" rel="noopener noreferrer">Here</a></small>
                                 </Card.Footer>
                             </Card>
                             <Card className="project-card">
@@ -56,7 +56,7 @@ class Projects extends Component {
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/Woking-Swimming-Club-Manager" target="_blank">Here</a></small>
+                                    <small className="text-muted">Github repo: <a href="https://github.com/kristianpayne1/Woking-Swimming-Club-Manager" target="_blank" rel="noopener noreferrer">Here</a></small>
                                 </Card.Footer>
                             </Card>
                         </div>
