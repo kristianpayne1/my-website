@@ -125,6 +125,7 @@ body {
 }
 
 .color-nav {
+  max-width: 96%;
   background-color: #282c34 !important;
   padding-right: 0px !important;
 }
