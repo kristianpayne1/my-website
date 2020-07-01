@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap/';
+import { Container, Row, Col, Button } from 'react-bootstrap/';
 import { Fade } from 'react-reveal/';
 import p5 from 'p5';
 
@@ -102,16 +102,21 @@ class FractalTree extends Component {
         this.myP5 = new p5(this.Sketch, this.myRef.current)
     }
 
+    onClick = () => {
+        window.location.hash = "#/";
+    }
+
     render() {
         return (
             <div className="experiment">
+                <Button className="experiment-back-button" onClick={this.onClick}><img src={require("./img/arrow-button.png")} alt="back arrow"/> Back</Button>
                 <Container fluid>
                     <Row>
                         <br />
                     </Row>
                     <Row>
                         <Col lg="auto">
-                            <div ref={this.myRef} id="sketchHolder"></div>
+                            <div ref={this.myRef} id="sketchHolder" className="sketchHolder"></div>
                             <br />
                         </Col>
                         <Col >

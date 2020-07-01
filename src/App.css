@@ -3,7 +3,23 @@ body {
 }
 
 .experiment {
-  min-height: 70vh;
+  min-height: 75vh;
+}
+
+.experiment-back-button {
+  font-weight: bold;
+  background-color: #282c34 !important;
+  border-color: #282c34 !important;
+}
+
+.experiment-back-button img{
+  height: 30px;
+  width: 30px;
+  transform: rotate(180deg);
+}
+
+.sketchHolder {
+  text-align: center;
 }
 
 .contactme-home {

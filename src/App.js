@@ -10,15 +10,16 @@ import FractalTree from './FractalTree.js';
 
 class App extends Component {
   onSelect = (selectedKey) => {
-    console.log(window.location.hash)
-    if (window.location.hash !== '#/') {
-      window.location.hash = "#/";
-      let timer = setInterval(function () {
-        if (!!document.getElementById(selectedKey)) {
-          window.scroll({ top: (document.getElementById(selectedKey).offsetTop - document.getElementById("navbar").offsetHeight), behavior: "smooth" });
-          clearInterval(timer);
-        }
-      }, 1000)
+    if (!document.getElementById(selectedKey)) {
+      if (window.location.hash !== '#/') {
+        window.location.hash = "#/";
+        let timer = setInterval(function () {
+          if (!!document.getElementById(selectedKey)) {
+            window.scroll({ top: (document.getElementById(selectedKey).offsetTop - document.getElementById("navbar").offsetHeight), behavior: "smooth" });
+            clearInterval(timer);
+          }
+        }, 1000)
+      }
     } else {
       window.scroll({ top: (document.getElementById(selectedKey).offsetTop - document.getElementById("navbar").offsetHeight), behavior: "smooth" });
     }
