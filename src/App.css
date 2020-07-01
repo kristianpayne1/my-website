@@ -2,6 +2,10 @@ body {
   background-color: #282c34 !important;
 }
 
+.experiment {
+  min-height: 70vh;
+}
+
 .contactme-home {
   max-width: 90%;
   margin: auto;

@@ -7,7 +7,7 @@ import Projects from './Projects.js';
 class Home extends Component {
     render() {
         return (
-            <div className="content">
+            <div>
                 <div className="home" onScroll={this.handleScroll} id="home">
                     <Fade>
                         <Image src={require('./img/me.jpg')} />
