@@ -101,15 +101,15 @@ body {
 }
 
 .home {
-  min-height: 600px;
+  min-height: fit-content;
   margin-bottom: 5%;
 }
 
 .aboutme-para {
-  top: 425px;
-  float: left;
+  /* top: 425px;
+  float: left; */
   font-size: 20px;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
   text-align: left;
   font-weight: bold;
@@ -118,14 +118,14 @@ body {
 }
 
 .home-title {
-  top: 250px;
-  float: left;
+  /* top: 250px; */
+  /* float: left; */
   font-size: 63px;
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
   text-align: left;
   font-weight: bold;
-  max-width: 500px;
+  /* max-width: 500px; */
   justify-content: center;
   white-space: pre-wrap !important;
 }
@@ -133,7 +133,7 @@ body {
 .home img {
   height: 600px;
   width: 600px;
-  float: right;
+  /* float: right; */
   border-radius: 0px !important;
   box-shadow: -20px 20px #61afef;
 }
@@ -186,22 +186,6 @@ body {
   margin-top: 1px;
 }
 
-.fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
-}
-
-.fade-out {
-  animation: fadeOut ease 1s;
-  -webkit-animation: fadeOut ease 1s;
-  -moz-animation: fadeOut ease 1s;
-  -o-animation: fadeOut ease 1s;
-  -ms-animation: fadeOut ease 1s;
-}
-
 /*Ipad Pro */
 
 @media only screen and (max-width: 1180px) {
@@ -212,12 +196,14 @@ body {
     zoom: 0.7;
     -moz-transform: scale(0.7);
   }
+  /*
   .home-title {
     top: 300px;
   }
   .aboutme-para {
     top: 500px;
   }
+  */
 }
 
 /* Ipad and lower */
@@ -234,33 +220,17 @@ body {
     margin-top: 2px;
   }
   .home {
-    margin-top: 17%;
-    overflow: hidden;
-    margin-bottom: 20%;
     text-align: center;
   }
   .home img {
-    float: none;
     width: 80%;
     height: 80%;
   }
   .home-title {
-    padding-right: 10%;
-    float: none;
-    margin-top: 8%;
-    font-size: 13vw;
-    position: static;
     text-align: center;
-    margin-left: 5rem;
-    max-width: 100%;
   }
   .aboutme-para {
-    float: none;
-    position: static;
-    margin-top: 12%;
     text-align: center;
-    font-size: calc(5vmin);
-    max-width: 100%;
   }
   .skills-home {
     margin-bottom: 15%;
@@ -270,120 +240,14 @@ body {
   }
 }
 
-/* Annoying tall phones */
-
-@media only screen and (min-height: 750px) and (max-width: 767px) {
+/* Mobile phones only */
+@media only screen and (max-width: 767px) {
+  .thing {
+    height: 90vh;
+  }
   .home {
-    margin-top: 35%;
-    margin-bottom: 42%;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-ms-keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes blinkingText {
-  0% {
-    color: white;
-  }
-  49% {
-    color: white;
-  }
-  60% {
-    color: transparent;
-  }
-  99% {
-    color: transparent;
-  }
-  100% {
-    color: white;
+    position: absolute;
+    top: 17%;
   }
 }
 
